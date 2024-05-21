@@ -18,3 +18,5 @@ public class GravadorDeArquivoTexto {
         }
     }
 }
+
+// teste mac
