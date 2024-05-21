@@ -6,7 +6,7 @@ public class GravadorDeArquivoTexto {
     public static void main(String[] args) {
         String nomeArquivo = "meuarquivo.txt"; // Nome do arquivo que será criado
 
-        try (FileWriter arquivo = new FileWriter(nomeArquivo);
+        try (FileWriter arquivo = new FileWriter(nomeArquivo, true);
              PrintWriter gravador = new PrintWriter(arquivo)) {
 
             gravador.println("Olá, mundo!"); // Escreve uma linha no arquivo
@@ -18,4 +18,3 @@ public class GravadorDeArquivoTexto {
         }
     }
 }
-

@@ -1,2 +1,4 @@
 Olá, mundo!
 Este é um exemplo de gravação em arquivo de texto.
+Olá, mundo!
+Este é um exemplo de gravação em arquivo de texto.
